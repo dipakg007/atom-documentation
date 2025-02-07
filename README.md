@@ -39,7 +39,7 @@
 <h3 align="center">Find Your Ginie - Startup</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An one stop solution for all your problems
     <br />
     <a href="https://github.com/dipakg007/atom-documentation"><strong>Explore the docs »</strong></a>
     <br />
@@ -64,6 +64,8 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#system-design">System Design</a></li>
+    <li><a href="#repositories">Repositories</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -71,7 +73,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#system-design">System Design</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -90,16 +91,33 @@
   </a>
 </div>
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+#### The Problem We’re Solving
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Moving to Bangalore for a job? You’ll soon realize that finding a job in the city is a breeze compared to finding a reliable maid or household help. Surprisingly, this isn’t just my story—it’s a shared struggle among many professionals in Bangalore. The demand for skilled individuals for household work far outweighs the supply, leaving people scrambling for solutions.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+#### The Solution: Find Your Ginie
 
-Use the `BLANK_README.md` to get started.
+To bridge this gap, I envisioned an app that connects professionals directly with customers, making it easier to hire individuals for short-term tasks, long-term contracts, or even subscription-based services. Whether you need a cook, a cleaner, a tutor, or a handyman, Find Your Ginie is here to simplify your life.
+
+#### What Makes Find Your Ginie Stand Out?
+
+* **Geo-Location Search:**
+Find nearby professionals with ease using our advanced geo-location feature. No more endless searches or unreliable referrals—just tap and connect.
+
+* **Flexible Pricing:**
+Negotiate directly with professionals to agree on a price that works for both parties. No hidden fees, no middlemen—just fair and transparent deals.
+
+* **Real-Time Chat:**
+Discuss your requirements, expectations, and timelines directly with the professional through our in-app chat feature. Clear communication leads to better results.
+
+* **Wide Range of Services:**
+From household chores to specialized skills, our platform supports a diverse range of professionals. Whether you need a plumber today or a yoga instructor next week, we’ve got you covered.
+
+#### Why Choose Find Your Ginie Over Competitors?
+Unlike platforms like Urban Company, which charge premium rates for basic services and lack subscription options, Find Your Ginie empowers you to connect directly with professionals. This not only saves you money but also builds a personal connection with the people you hire.
+
+#### What Are You Waiting For?
+Say goodbye to the hassle of finding reliable help and hello to convenience, flexibility, and affordability. Find Your Ginie is here to make your life easier—one tap at a time.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +134,23 @@ List of all major frameworks/libraries used to in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- USAGE EXAMPLES -->
+## System Design
 
+***Coming soon***
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Repositories -->
+## Repositories
+
+Here’s a list of all the important repositories and services that power our project. Each one plays a unique role in making the system efficient, scalable, and user-friendly.
+* **[atom-common-lib](https://github.com/dipakg007/atom-common-lib)** - This repository is the backbone of our project! It houses all the common entity files that are shared across multiple services. Think of it as the central hub for reusable components, ensuring consistency and reducing redundancy across the entire system.
+* **[atom-search-service](https://github.com/dipakg007/atom-search-service)** - Looking for nearby professionals? This repository has got you covered! The atom-search-service is designed to help users identify and connect with skilled professionals in their vicinity. Whether you need a plumber, tutor, or yoga instructor, this service ensures you find the right person for the job.
+* **[atom-discovery-server](https://github.com/dipakg007/atom-discovery-server)** - Meet the Eureka Server of our ecosystem! The atom-discovery-server is responsible for registering and managing all the microservices in our application. It ensures seamless communication between services, making the system robust and reliable.
+* **[atom-api-gateway](https://github.com/dipakg007/atom-api-gateway)** - The atom-api-gateway is the gatekeeper of our application. It routes all incoming requests to the appropriate services and handles authentication across the entire project. With this gateway, we ensure a single entry point for all requests, making the system secure and easy to manage.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -156,19 +190,6 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## System Design
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
